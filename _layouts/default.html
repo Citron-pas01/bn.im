@@ -1,0 +1,38 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+
+<body>
+
+    {% include header.html %}
+
+    {% if page.layout =="home" %}
+    {% include bo-profile.html %}
+    <div id="about">
+        <br>
+        <h3 class="text-center"> About </h3>
+        <div id="content-container" class="container">
+            <div class="text-justify">
+                {% assign about = site.pages | where: 'name','about.md' %}
+                {{about}}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <main aria-label="Content">
+        <div id="content-container" class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
