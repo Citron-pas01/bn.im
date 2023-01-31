@@ -38,7 +38,7 @@ The exported data would include the test time, current, and potential, which can
 As shown in Figure 1b, the $$ \Delta E_s $$ is the steady-state potential change $$ E_4-E_0 $$ due to the pulse, and $$ \Delta E_t $$ is the potential change $$ E_2-E_1 $$ during the pulse current titration.
 When the current is been switched off, there is an IR drop as $$ E_2-E_3 $$. <br>
 <p align="center">
-	<img src="./assets/images/p5-GITT-curve.jpg" width="800" alt="Fig. 1." class="figure-image-post"><br>
+	<img src="/assets/images/p5-GITT-curve.jpg" width="800" alt="Fig. 1." class="figure-image-post"><br>
 	<b>Fig. 1.</b> (a) the GITT charge-discharge curves for the LiFePO<sub>4</sub> half cell at a current of 0.1 C, titration time=30min, rest time = 4 hrs. 
 	(b) the corresponding terminologies from the equation in the curve
 </p>
