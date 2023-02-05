@@ -77,7 +77,7 @@ The side reactions can be identified from the anode peak current to cathode peak
 </body>
 <br>
 <p align="center">
-	<img src="/assets/images/c-v.jpg" width="400" alt="Fig. 2. The current ratio calculation based on the Nicholson method [1]" class="figure-image-post"><br>
+	<img src="/assets/images/cv.jpg" width="400" alt="Fig. 2. The current ratio calculation based on the Nicholson method [1]" class="figure-image-post"><br>
 	<b>Fig. 2.</b> The current ratio calculation based on the Nicholson method [1]
 </p>
 
