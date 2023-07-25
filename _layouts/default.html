@@ -13,16 +13,7 @@ layout: compress
 
     {% if page.layout =="home" %}
     {% include bo-profile.html %}
-    <div id="about">
-        <br>
-        <h3 class="text-center"> About </h3>
-        <div id="content-container" class="container">
-            <div class="text-justify">
-                {% assign about = site.pages | where: 'name','about.md' %}
-                {{about}}
-            </div>
-        </div>
-    </div>
+    {% include about.html %}
     {% endif %}
 
     <main aria-label="Content">
