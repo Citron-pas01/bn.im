@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<div id="content">
+    <h4 class="text-left"> Publications </h4>
+    <hr>
+    <ul class="list-unstyled m-0">
+
+        {% assign row = site.data.publicationlist[0] %}
+        {% assign date = row["Date"] %}
+        {% assign name = row["Title"] %}
+        {% assign author = row["Authors"] %}
+        {% assign journal = row["Journal"] %}
+        {% assign issue = row["Issue"] %}
+        {% assign page = row["Page"]] %}
+        {% assign link = row["Link"] %}
+
+        <li class="py-2">
+            <span class="text-secondary">{{ date | date: "%b, %Y" }}</span>
+
+            <h1 class="mt-1 mb-3 h3">
+                <a href="{{ link }}">{{ name}}</a>
+            </h1>
+        </li>
+        <li>
+            <a>{{author}}. </a>
+
+            {{journal}} {{issue}}, {{page}}
+        </li>
+        <li class="para-end">
+
+        </li>
+    </ul>
+    <!-- second paper -->
+    <ul class="list-unstyled m-0">
+
+        {% assign row = site.data.publicationlist[1] %}
+        {% assign date = row["Date"] %}
+        {% assign name = row["Title"] %}
+        {% assign author = row["Authors"] %}
+        {% assign journal = row["Journal"] %}
+        {% assign issue = row["Issue"] %}
+        {% assign page = row["Page"]] %}
+        {% assign link = row["Link"] %}
+
+        <li class="py-2">
+            <span class="text-secondary">{{ date | date: "%b, %Y" }}</span>
+
+            <h1 class="mt-1 mb-3 h3">
+                <a href="{{ link }}">{{ name}}</a>
+            </h1>
+        </li>
+        <li>
+            <a>{{author}}. </a>
+
+            {{journal}} {{issue}}, {{page}}
+        </li>
+        <li class="para-end">
+
+        </li>
+    </ul>
+    <!-- third paper -->
+    <ul class="list-unstyled m-0">
+
+        {% assign row = site.data.publicationlist[2] %}
+        {% assign date = row["Date"] %}
+        {% assign name = row["Title"] %}
+        {% assign author = row["Authors"] %}
+        {% assign journal = row["Journal"] %}
+        {% assign issue = row["Issue"] %}
+        {% assign page = row["Page"]] %}
+        {% assign link = row["Link"] %}
+
+        <li class="py-2">
+            <span class="text-secondary">{{ date | date: "%b, %Y" }}</span>
+
+            <h1 class="mt-1 mb-3 h3">
+                <a href="{{ link }}">{{ name}}</a>
+            </h1>
+        </li>
+        <li>
+            <a>{{author}}. </a>
+
+            {{journal}} {{issue}}, {{page}}
+        </li>
+        <li class="para-end">
+
+        </li>
+    </ul>
+
+    <!-- 4th paper -->
+    <ul class="list-unstyled m-0">
+
+        {% assign row = site.data.publicationlist[3] %}
+        {% assign date = row["Date"] %}
+        {% assign name = row["Title"] %}
+        {% assign author = row["Authors"] %}
+        {% assign journal = row["Journal"] %}
+        {% assign issue = row["Issue"] %}
+        {% assign page = row["Page"]] %}
+        {% assign link = row["Link"] %}
+
+        <li class="py-2">
+            <span class="text-secondary">{{ date | date: "%b, %Y" }}</span>
+
+            <h1 class="mt-1 mb-3 h3">
+                <a href="{{ link }}">{{ name}}</a>
+            </h1>
+        </li>
+        <li>
+            <a>{{author}}. </a>
+
+            {{journal}} {{issue}}, {{page}}
+        </li>
+        <li class="para-end">
+
+        </li>
+    </ul>
+
+    <!-- 5th paper -->
+    <ul class="list-unstyled m-0">
+
+        {% assign row = site.data.publicationlist[4] %}
+        {% assign date = row["Date"] %}
+        {% assign name = row["Title"] %}
+        {% assign author = row["Authors"] %}
+        {% assign journal = row["Journal"] %}
+        {% assign issue = row["Issue"] %}
+        {% assign page = row["Page"]] %}
+        {% assign link = row["Link"] %}
+
+        <li class="py-2">
+            <span class="text-secondary">{{ date | date: "%b, %Y" }}</span>
+
+            <h1 class="mt-1 mb-3 h3">
+                <a href="{{ link }}">{{ name}}</a>
+            </h1>
+        </li>
+        <li>
+            <a>{{author}}. </a>
+
+            {{journal}} {{issue}}, {{page}}
+        </li>
+        <li class="para-end">
+
+        </li>
+    </ul>
+
+    <!-- 6th paper -->
+    <ul class="list-unstyled m-0">
+
+        {% assign row = site.data.publicationlist[5] %}
+        {% assign date = row["Date"] %}
+        {% assign name = row["Title"] %}
+        {% assign author = row["Authors"] %}
+        {% assign journal = row["Journal"] %}
+        {% assign issue = row["Issue"] %}
+        {% assign page = row["Page"]] %}
+        {% assign link = row["Link"] %}
+
+        <li class="py-2">
+            <span class="text-secondary">{{ date | date: "%b, %Y" }}</span>
+
+            <h1 class="mt-1 mb-3 h3">
+                <a href="{{ link }}">{{ name}}</a>
+            </h1>
+        </li>
+        <li>
+            <a>{{author}}. </a>
+
+            {{journal}} {{issue}}, {{page}}
+        </li>
+        <li class="para-end">
+
+        </li>
+    </ul>
+
+    <!-- 7th paper -->
+    <ul class="list-unstyled m-0">
+
+        {% assign row = site.data.publicationlist[6] %}
+        {% assign date = row["Date"] %}
+        {% assign name = row["Title"] %}
+        {% assign author = row["Authors"] %}
+        {% assign journal = row["Journal"] %}
+        {% assign issue = row["Issue"] %}
+        {% assign page = row["Page"]] %}
+        {% assign link = row["Link"] %}
+
+        <li class="py-2">
+            <span class="text-secondary">{{ date | date: "%b, %Y" }}</span>
+
+            <h1 class="mt-1 mb-3 h3">
+                <a href="{{ link }}">{{ name}}</a>
+            </h1>
+        </li>
+        <li>
+            <a>{{author}}. </a>
+
+            {{journal}} {{issue}}, {{page}}
+        </li>
+        <li class="para-end">
+
+        </li>
+    </ul>
+</div>
+</html>
