@@ -43,6 +43,7 @@ header_pages:
 - about.md
 - research.md
 - posts.md
+- badniche.md
 - archive.md
 
 paginate: 5
