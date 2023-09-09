@@ -231,5 +231,34 @@
 
         </li>
     </ul>
+
+            <!-- 9th paper -->
+    <ul class="list-unstyled m-0">
+
+        {% assign row = site.data.publicationlist[8] %}
+        {% assign date = row["Date"] %}
+        {% assign name = row["Title"] %}
+        {% assign author = row["Authors"] %}
+        {% assign journal = row["Journal"] %}
+        {% assign issue = row["Issue"] %}
+        {% assign page = row["Page"]] %}
+        {% assign link = row["Link"] %}
+
+        <li class="py-2">
+            <span class="text-secondary">{{ date | date: "%b, %Y" }}</span>
+
+            <h1 class="mt-1 mb-3 h3">
+                <a href="{{ link }}">{{ name}}</a>
+            </h1>
+        </li>
+        <li>
+            <a>{{author}}. </a>
+
+            {{journal}} {{issue}}, {{page}}
+        </li>
+        <li class="para-end">
+
+        </li>
+    </ul>
 </div>
 </html>
