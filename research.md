@@ -1,6 +1,6 @@
 ---
-layout: post
+layout: research
 title: Research
-description: Blog posts
-permalink: /Research/
+description: Research projects
+permalink: /Research-projects/
 ---
