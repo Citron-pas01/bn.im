@@ -5,12 +5,12 @@
     <a class="h4 m-0 text-dark" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
 
     {% if page_paths %}
-      <nav id="nav-menu-container" class="text-right navbar-light">
-        <input type="checkbox" id="nav-trigger" class="d-none"/>
-        <label for="nav-trigger" aria-label="button" class="m-2 d-inline-block d-md-none navbar-toggler-icon">
+      <nav id="nav-menu-container" class="text-right n:menu">
+        <input type="checkbox" id="nav-trigger" class="btn-check"/>
+        <label for="nav-trigger" aria-label="button" class="n:icon m-1 d-inline-block r:d-none">
         </label>
 
-        <div id="nav-menu" class="d-none d-md-block">
+        <div id="nav-menu" class="ml-3 b:d-flex flex-column r:d-flex r:flex-row d-none">
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
