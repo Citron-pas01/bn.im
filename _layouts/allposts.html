@@ -21,12 +21,12 @@ layout: page
             <li class="py-2">
                 <span class="text-secondary">{{ post.date |  date:"%Y-%m-%d" }}</span>
 
-                <h1 class="mt-1 mb-3 h3">
+                <h2 class="mt-1 mb-3 h2">
                     <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h1>
+                </h2>
 
                 <div class="text-justify">
-                   {{ post.excerpt }} <a href="{{ post.url | relative_url }}"> Read more </a>
+                   {{ post.excerpt }} <a href="{{ post.url | relative_url }}"> Read more </a> <br>
                 </div>
             </li>
         </tr>
