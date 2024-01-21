@@ -9,7 +9,7 @@ permalink: /:categories
 ***Cyclic Voltammetry (CV)*** is almost everywhere in the electrochemistry (EC) world regarding its powerful analytic strength. 
 Battery can’t be absent from an EC talk as CV has been widely explored for the complex electrochemical reactions and dynamics. 
 Let’s talk about CV and its application in a battery.
-
+<!--more-->
 <h3>Background</h3>
 CV can not only preliminarily study the possible electrochemical reactions of the electrode system 
 but evaluate the reversibility of the electrode process as well as the adsorption and desorption in the basic process of the electrode. 
