@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dimensions Tolerance and Loading Matter for 18650 Lithium ion Batteries "
-date:   2024-01-21 08:40:22 -0500
+date:   2024-01-22 08:40:22 -0500
 categories: Models
 ---
 
