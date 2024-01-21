@@ -7,14 +7,14 @@
     {% if page_paths %}
       <nav id="nav-menu-container" class="text-right navbar-light">
         <input type="checkbox" id="nav-trigger" class="d-none"/>
-        <label for="nav-trigger" aria-label="button" class="m-2 d-inline-block d-sm-none navbar-toggler-icon">
+        <label for="nav-trigger" aria-label="button" class="m-2 d-inline-block navbar-toggler-icon">
         </label>
 
-        <div id="nav-menu" class="d-none d-sm-block">
+        <div id="nav-menu" class="d-block">
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
-              <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              <a class="text-dark ml-3 ml-md-0 p-2 d-block d-inline-block" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
         </div>
