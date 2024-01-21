@@ -10,7 +10,7 @@ By tuning the number of units, the thickness of each layer, and the stacking seq
 an effective light-reflection medium is expected to be applied to the building windows or vehicle windows. 
 Beyond the model design, the genetic algorithm is cooperated to optimize these variables. 
 In the python-based simulation, an initial demonstration is introduced to pave a direction for maximizing the light reflectance.
-
+<!--more-->
 <h3>Introduction</h3>
 Light is a daily observation that has been interpreted into several categories: geometrical optics; light as a wave; 
 light as electromagnetic radiation; and the quantum theory of light. 
