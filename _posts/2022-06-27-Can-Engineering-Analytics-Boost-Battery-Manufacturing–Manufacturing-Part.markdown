@@ -8,7 +8,7 @@ categories: Models
 Battery provides convenience for us in this chaotic world. Various situations, applications, and users are pushing us to design and manufacture more advanced batteries and devices. 
 So, in the manufacturing factory, how can we make the process manageable and analyzable for new designs? 
 Let's walk through the journey with our engineering analysts.
-
+<!--more-->
 Before getting the tickets for the journey, two questions may come to us. 
 What are the battery manufacturing processes? How can the analytic methods help to manage these processes? 
 First, let's see the decomposed procedure in a manufacturing factory. As in figure 1, we can have five workshops to take charge of the different segmental production.
