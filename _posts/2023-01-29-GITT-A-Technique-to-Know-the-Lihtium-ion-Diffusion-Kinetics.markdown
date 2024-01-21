@@ -13,7 +13,7 @@ To measure the ion diffusion kinetics, different methods have been introduced to
 e.g., cyclic voltammetry (CV), electrochemical impedance spectrum (EIS), galvanostatic intermittent titration technique (GITT), 
 and potentiostatic intermittent titration technique (PITT). Among them, GITT is one of the most direct methods to calculate the ion diffusion coefficient. 
 So, GITT is often used to measure the ion diffusion kinetics in many electrochemistry studies [1, 2, 3].
-
+<!--more-->
 GITT was first used to determine the kinetic parameters of mixed-conducting electrodes Li<sub>3</sub>Sb, 
 in which it combines both transient and steady-state measures to obtain the chemical and component diffusion coefficients, 
 the partial conductivity, the mobility, the thermodynamic enhancement factor, etc. [4]. 
