@@ -5,7 +5,11 @@ date:   2024-01-20 08:40:22 -0500
 categories: Models
 ---
 
-Lithium-ion batteries can be designed into different shapes, such as coin cells, cylinder cells, pouch cells, and prismatic cells. Quite many manufacturers are producing pouch cells because its high energy storage density and lower cost. One day, a friend asked me why Tesla is not making pouch cells and picks cylinder cells instead, and what an 18650-battery cell is. This question recalled my memory of making 18650 LiFePO<sub>4</sub> cells in a pilot lithium-ion battery manufacturing line years ago. 
+Lithium-ion batteries can be designed into different shapes, such as coin cells, cylinder cells, pouch cells, and prismatic cells. 
+Quite many manufacturers are producing pouch cells because its high energy storage density and lower cost. 
+One day, a friend asked me why Tesla is not making pouch cells and picks cylinder cells instead, and what an 18650-battery cell is. 
+This question recalled my memory of making 18650 LiFePO<sub>4</sub> cells in a pilot lithium-ion battery manufacturing line years ago. 
+
 A battery contains a cathode, anode, separator, electrolyte, leads, and packaging materials. As one of the most important components inside the battery cell, many electrode materials have been developed into use regarding their different lattice structures, intercalation/deintercalation potentials, nominal capacities, and cycling stability. Commercial LiFePO<sub>4</sub> and graphite were selected as the cathode and anode active materials, respectively. Commercial liquid electrolytes and PP microporous membranes were used as Li<sup>+</sup> diffusion media and e<sup>-</sup> blockers, respectively.
 
 <h3> How's a battery designed?</h3>
