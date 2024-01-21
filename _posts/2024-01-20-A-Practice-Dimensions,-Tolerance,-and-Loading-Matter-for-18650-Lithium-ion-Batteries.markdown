@@ -14,7 +14,7 @@ Come back to the second question. How the battery is named. As taught in a batte
 <br>
 <p align="center">
 	<img src="/assets/images/p1-battery-18650.jpg" width="600" alt="Fig. 1. The 18650 cylinder-shaped lithium-ion battery configuration" class="figure-image-post"><br>
-	<b>Fig. 1.</b> The 18650 cylinder-shaped lithium-ion battery configuration (Ref. <a href=https://www.bosch-presse.de/pressportal/de/en/diagram-showing-how-a-lithium-ion-battery-works-35062.html> Bosch-press </a>)
+	<span><b>Fig. 1.</b> The 18650 cylinder-shaped lithium-ion battery configuration (Ref. <a href=https://www.bosch-presse.de/pressportal/de/en/diagram-showing-how-a-lithium-ion-battery-works-35062.html> Bosch-press </a>)</span>
 </p>
 
 When searching for the capacity of an 18650 cell, it can be 2000, 2500, 3000 mAh, or more.  
