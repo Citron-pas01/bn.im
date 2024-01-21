@@ -11,7 +11,7 @@ Therefore, it is very necessary to process these data efficiently. I developed a
 The cycling scatters with both *Specific capacity* and *Coulombic efficiency* as the y variables, 
 the charge-discharge curves as *Voltage* vs. *Capacity*, and the statistic table of initial Coulombic efficiency & reversible Coulombic efficiency are all analyzed at one click. 
 This tool saves a lot of data processing time, especially for these high throughput experiments.
-
+<!--more-->
 <h3>Introduction</h3>
 As a battery researcher, processing battery testing data is one of boring tasks and takes lots of time. 
 Although the professional software (Origin, Sigmaplot etc.) are often used to analyze battery data, 
