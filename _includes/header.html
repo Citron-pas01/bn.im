@@ -3,14 +3,9 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="h4 m-0 text-dark" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
-     <span class="sr-only">Toggle navigation</span>
-     <span class="icon-bar"></span>
-     <span class="icon-bar"></span>
-     <span class="icon-bar"></span>
-     </button>
+
     {% if page_paths %}
-      <nav id="nav-menu-container" class="collapse navbar-collapse text-right navbar-light">
+      <nav id="nav-menu-container" class="text-right navbar-light">
         <input type="checkbox" id="nav-trigger" class="d-none"/>
         <label for="nav-trigger" aria-label="button" class="m-2 d-inline-block d-md-none navbar-toggler-icon">
         </label>
