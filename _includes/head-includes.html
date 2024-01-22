@@ -92,6 +92,23 @@
     max-width: 100%;
     height: auto;
     }
-
+    
+    #nav-trigger {
+    display: none;
+    }
+    @media (max-width: 858px){
+        #nav-menu{
+            position: fixed;
+            width: 20%;
+            height: 12%;
+            top: 50px;
+            right: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        #nav-trigger:checked ~ ul{
+            right: 15%;
+        }
+    }
 </style>
 
