@@ -13,7 +13,7 @@ A battery contains a cathode, anode, separator, electrolyte, leads, and packagin
 Come back to the second question. How the battery is named. As taught in a battery course, the cylinder-shaped rechargeable battery is described as "xxx-#####" (3 letters + 5 numbers). Nowadays, a 5 number description is wildly used. The 1<sup>st</sup> letter represents the anode (<em>I</em> is Lithium-ion batteries, and <em>L</em> is lithium-metal batteries); The 2<sup>nd</sup> letter represents the active material of the cathode; The 3<sup>rd</sup> letter represents the shape of the battery where <em>R</em> is a cylinder-shaped battery; The 1<sup>st</sup> two numbers represent the diameter of the battery cylinder in millimeters; The rest numbers represent the height of the battery cylinder times 10 in millimeters. That is, 18650 is a cylinder-shaped battery with a diameter of 18 mm and a height of 65 mm.
 <br>
 <p align="center">
-	<img src="/assets/images/p1-battery-18650.jpg" width="600" alt="Fig. 1. The 18650 cylinder-shaped lithium-ion battery configuration" class="figure-image-post"><br>
+	<img src="/assets/images/p1-18650-battery.jpg" width="600" alt="Fig. 1. The 18650 cylinder-shaped lithium-ion battery configuration" class="figure-image-post"><br>
 	<b>Fig. 1.</b> The 18650 cylinder-shaped lithium-ion battery configuration
 </p>
 
