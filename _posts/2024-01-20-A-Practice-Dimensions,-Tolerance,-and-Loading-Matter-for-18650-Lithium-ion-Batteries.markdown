@@ -14,7 +14,7 @@ Come back to the second question. How the battery is named. As taught in a batte
 <br>
 <p align="center">
 	<img src="/assets/images/p1-battery-18650.jpg" width="600" alt="Fig. 1. The 18650 cylinder-shaped lithium-ion battery configuration" class="figure-image-post"><br>
-	<b>Fig. 1.</b> The 18650 cylinder-shaped lithium-ion battery configuration (Ref. Bosch-press)
+	<b>Fig. 1.</b> The 18650 cylinder-shaped lithium-ion battery configuration
 </p>
 
 When searching for the capacity of an 18650 cell, it can be 2000, 2500, 3000 mAh, or more.  
@@ -38,7 +38,7 @@ For example, 130 mAh/g for the LiFePO<sub>4</sub> cathode and 320 mAh/g of graph
 <br>
 <p align="center">
 	<img src="/assets/images/p2-battery-18650-sketch.jpg" width="600" alt="Fig. 2. The sketch of an as received 18650 stainless steel (SS) shell and crimped  cell" class="figure-image-post"><br>
-	<b>Fig. 2.</b> The sketch of a received 18650 stainless steel shell and a crimped  cell
+	<b>Fig. 2.</b> The sketch of a received 18650 stainless steel shell and a crimped cell
 </p>
 
 Specifically, during the slurry coating workshop, there are critical parameters that need to be calculated. For example, the width ($$ w_c, w_a $$), effective length ($$ l_c, l_a $$), thickness ($$ t_c, t_a $$), areal density ($$ d_c, d_a $$) of 
