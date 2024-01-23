@@ -5,20 +5,16 @@
     <a class="h4 m-0 text-dark" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
 
     {% if page_paths %}
-      <nav id="nav-menu-container" class="text-right navbar-light">
-        <input type="checkbox" id="nav-trigger" class="d-none"/>
-        <label for="nav-trigger" aria-label="button" class="m-2 d-inline-block d-md-none navbar-toggler-icon">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+      <nav id="nav-menu-container" class="n:menu text-right">
+        <input type="checkbox" id="nav" class="btn-check"/>
+        <label for="nav" aria-label="button" class="n:icon d-inline-block r:d-none m-1">
         </label>
 
-        <div id="nav-menu" class="d-block d-md-block">
+        <div id="n:menu" class="ml-3 d-none b:d-flex flex-column r:d-flex r:flex-row">
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
-              <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              <a class="p-2 small font-weight-bold text-uppercase" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
         </div>
