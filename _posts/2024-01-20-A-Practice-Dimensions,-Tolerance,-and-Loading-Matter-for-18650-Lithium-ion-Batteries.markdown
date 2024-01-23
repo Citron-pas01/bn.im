@@ -41,7 +41,7 @@ For example, 130 mAh/g for the LiFePO<sub>4</sub> cathode and 320 mAh/g of graph
 	<b>Fig. 2.</b> The sketch of a received 18650 stainless steel shell and a crimped cell
 </p>
 
-Specifically, during the slurry coating, there are critical parameters that need to be calculated. For example, the width ($$ w_c, w_a $$), effective length ($$ l_c, l_a $$), thickness ($$ t_c, t_a $$), areal density ($$ d_c, d_a $$) of 
+Specifically, during the slurry coating, there are critical parameters that need to be calculated according to the 18650 cell dimensions (<b>Fig. 2</b>). For example, the width ($$ w_c, w_a $$), effective length ($$ l_c, l_a $$), thickness ($$ t_c, t_a $$), areal density ($$ d_c, d_a $$) of 
 the coated cathode and anode electrode pieces. The mass of the double-side coated cathode can be calculated as $$ m_c = 2w_c l_c d_c $$. Considering the composition of the cathode coating, ~85% of LiFePO<sub>4</sub> results in the capacity of:
 $$ capacity_c = m_c \times 85\% \times 130 mAh/g $$. The anode mass can be calculated in the same way. 
 
