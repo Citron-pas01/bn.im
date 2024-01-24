@@ -74,7 +74,10 @@
         }
     .flex-column {
         flex-direction: column !important;
-        }    
+        }
+    .d-inline-block{
+        display: inline-block !important;
+        }
     }
     .para {
         margin-top: 1em;
@@ -120,9 +123,12 @@
         .ml-3, .mx-3 {
         margin-left: 1rem !important;
         }
+       .r\:d-none {
+        display: none !important;
+        }
     }
     .n\:icon{
-        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path stroke="rgba%280, 0, 0, 0.5%29" stroke-linecap="round" stroke-width="2.5" d="M5 8h22M5 16h22M5 24h22"/></svg>'); !important;
+        background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-width='2.5' d='M5 8h22M5 16h22M5 24h22'/%3e%3c/svg%3e) !important;
         width: 1.5rem;
         height: 1.5rem;
         vertical-align: middle;
@@ -138,9 +144,7 @@
         clip: rect(0, 0, 0, 0);
         pointer-events: none;
     }
-        .d-inline-block{
-        display: inline-block !important;
-    }
+
     .m-1{
         margin: 0.25rem !important;
     }
